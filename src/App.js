@@ -10,7 +10,7 @@ function App() {
           <b>Hi there!</b>
           </p>
           <p>
-          <b> How is your day?</b>
+          <b> I was changed on the feature branch</b>
         </p>
         <a
           className="App-link"
