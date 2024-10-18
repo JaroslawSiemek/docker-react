@@ -10,6 +10,8 @@ script:
 
 deploy:
   provider: elasticbeanstalk
+  access_key_id: "AWS_Access_key_ID"
+  secret_access_key: "AWS_Secret_access_key"
   region: "eu-north-1"
   app: "frontend"
   env: "Frontend-env"
@@ -17,5 +19,4 @@ deploy:
   bucket_path: "frontend"
   on:
     branch: master
-    access_key_id: "AWS_Access_key_ID"
-    secret_access_key: "AWS_Secret_access_key"
+    
